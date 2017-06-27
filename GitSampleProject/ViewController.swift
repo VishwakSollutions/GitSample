@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.green
         print("It is a Github Sample project, Repository created from Mallika A/C...")
         print("Comment line: Sharon")
+        print("Comment line 2: Mallika")
     }
     override func viewWillAppear(_ animated: Bool) {
         print("Welcome To Vishwak 2017")
