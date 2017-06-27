@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.green
         print("It is a Github Sample project, Repository created from Mallika A/C...")
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        print("Welcome To Vishwak 2017")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
